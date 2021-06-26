@@ -224,6 +224,7 @@ blockquote {
   font-size: 1.4vh;
   padding: 0 20% 0 0;
   line-height: 2.5vh;
+  margin: 0;
 }
 #remind {
   padding: 0 6vh;
