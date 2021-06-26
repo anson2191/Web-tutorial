@@ -31,7 +31,7 @@
       </div>
 
       <div id="layout_down">
-        <div id="content">
+        <div id="content_reserve">
           <p id="t1">個人諮商初談注意事項</p>
 
           <p id="t2">初談和續談是什麼？</p>
@@ -55,14 +55,14 @@
             <div class="content_list">
               <li></li>
               <p id="p3">
-                >若是不需要續談，則會已結案處理，之後再有需要可以再次預約初談
+                若是不需要續談，則會已結案處理，之後再有需要可以再次預約初談
               </p>
             </div>
           </blockquote>
 
           <p id="t2">保密原則的例外狀況</p>
           <p id="p3">
-            >基於法律要求、學校政策以及心理專業人員的專業倫理規範，在尊重生命與安全的前提下，需進行危機處理或通報，以便引進更多的資源協助解決你的困境。這樣的用意是為了保護你與他人的生命財產安全，最終讓自己有機會慢慢地回到軌道上。
+            基於法律要求、學校政策以及心理專業人員的專業倫理規範，在尊重生命與安全的前提下，需進行危機處理或通報，以便引進更多的資源協助解決你的困境。這樣的用意是為了保護你與他人的生命財產安全，最終讓自己有機會慢慢地回到軌道上。
           </p>
 
           <p id="t3">以下兩種類別的狀況發生時，心理師有通報的責任：</p>
@@ -70,7 +70,7 @@
             <div class="content_list">
               <li></li>
                <p id="p3">
-                >罹患嚴重精神疾病（精神衛生法）、家庭暴力（家庭暴力防治法）、一般性侵害（性侵害犯罪防治法）、校園性侵害/性騷擾/性霸凌（性別平等教育法）、兒少性剝削（兒童及少年性剝削防制條例），以及兒童及少年福利與權益保障法所規定之通報事項（含施用毒品）。</p
+                罹患嚴重精神疾病（精神衛生法）、家庭暴力（家庭暴力防治法）、一般性侵害（性侵害犯罪防治法）、校園性侵害/性騷擾/性霸凌（性別平等教育法）、兒少性剝削（兒童及少年性剝削防制條例），以及兒童及少年福利與權益保障法所規定之通報事項（含施用毒品）。</p
               >
             </div>
           </blockquote>
@@ -84,7 +84,7 @@
       </div>
 
       <div id="accept_button_box">
-        <div id="accept_button" @click="toStart()">
+        <div id="accept_button_reserve" @click="toStart()">
           <font class="button_font">接受上述內容，預約初談</font>
         </div>
       </div>
@@ -114,7 +114,6 @@ export default {
 .container{
   margin: 0px;
   padding: 0px;
-  height: 1000px;
 }
 #layout_reserve {
   display: flex;
@@ -238,9 +237,9 @@ blockquote {
 #layout_down {
   padding: 0 4vh;
   width: 100vw;
-  height: 60.97vh;
+  height: 70.97vh;
 }
-#content {
+#content_reserve {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -250,16 +249,18 @@ blockquote {
   height: 100%;
 }
 #t1 {
-  font-size: 2.6vh;
+  font-size: 3.56vh;
   font-style: normal;
   font-weight: 400;
   line-height: 4.72vh;
   color: #20e2d7;
 }
 #t2 {
-  font-size: 1.8vh;
+  font-size: 2.2vh;
   font-weight: 400;
   line-height: 5vh;
+  color: #5C5C5C;
+  margin: 0;
 }
 #t3 {
   font-size: 1.4vh;
@@ -275,12 +276,13 @@ li {
   line-height: 2.5vh;
 }
 #p3 {
-  font-size: 1.4vh;
+  font-size: 1.9vh;
   font-weight: 300;
-  line-height: 2.5vh;
+  line-height: 2.67vh;
   display: flex;
+  margin: 0;
 }
-#accept_button {
+#accept_button_reserve {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -300,8 +302,6 @@ li {
   height: 3vh;
 }
 #accept_button_box {
-  position: relative;
-  top:125px;
   padding: 4vh;
 }
 </style>

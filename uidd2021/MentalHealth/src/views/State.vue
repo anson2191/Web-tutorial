@@ -4,7 +4,7 @@
     <Nav showBackArrow="true" showText="true" navText="身心狀態"></Nav>
     <div id="layout">
       <div class="title">最近兩週的身心狀態</div>
-      <div class="button_box" style="height: 57.46vh">
+      <div class="button_box" style="height:129.7vw">
         <div class="button_outside">
           <div class="button_inside">
             <input
@@ -115,7 +115,7 @@
       </div>
 
       <div class="title">最近兩週的身心狀態</div>
-      <div class="button_box" style="height: 24.96vh">
+      <div class="button_box" style="height: 55vw">
         <div class="button_outside">
           <div class="button_inside">
             <input
@@ -196,13 +196,14 @@
   color: #5c5c5c;
 }
 .button_box {
+  width: 86.17vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .button_outside {
-  width: 39.83vh;
-  height: 5.18vh;
+  width: 86.12vw;
+  height: 11.2vw;
 
   background-image: -webkit-linear-gradient(
     top,
@@ -212,14 +213,14 @@
   background-image: -moz-linear-gradient(top, #96fbc4 33.15%, #20e2d7 127.81%);
   background-image: linear-gradient(top, #96fbc4 33.15%, #20e2d7 127.81%);
 
-  padding: 0.1vh;
-  border-radius: 1.2vh;
+  padding: 0.35vw;
+  border-radius: 3vw;
   box-sizing: border-box;
 }
 .button_inside {
   width: 100%;
   height: 100%;
-  border-radius: 1.2vh;
+  border-radius: 2.67vw;
 
   display: flex;
   align-items: center;
@@ -235,7 +236,12 @@
   width: 100%;
   height: 25%;
   padding: 0 0 0 1.13vh;
-  line-height: 2.17vh;
+  line-height: 5.5vw;
+  color: #5C5C5C;
+  font-size: 4.27vw;
+  font-family: PingFang TC;
+  font-style: normal;
+  font-weight: normal;
 }
 .accept_div {
   height: 21.6vh;

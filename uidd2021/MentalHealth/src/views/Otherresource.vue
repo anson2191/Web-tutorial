@@ -65,6 +65,7 @@
 	display: flex;
 	flex-direction: column;
     align-items: center;
+
 	height: 31.2vh;
 }
 .font1{
@@ -73,6 +74,7 @@
 	font-weight: bold;
 	font-size: 2.96vh;
 	color: #1E1E1E;
+
 	position: relative;
 	top: 5.42vh;
 }
@@ -82,22 +84,26 @@
 	font-weight: normal;
 	font-size: 1.97vh;
 	color: #1E1E1E;
+
 	position: relative;
 	top: 5.42vh;
 }
 .font3{
 	width: 88vw;
     text-align: left;
+
 	font-family: Taipei Sans TC Beta;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 1.97vh;
 	color: #5C5C5C;
+
 	padding: 5vh 0 1vh 3.08vh;
 }
 #main_pic{
 	width: 40.27vh;
 	height: 15.52vh;
+
 	position: relative;
 	top: 8.3vh;
 }
@@ -112,6 +118,7 @@
 	border-radius: 1.23vh;
 	width: 18.74vh;
 	height: 9.74vh;
+
 	display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -122,6 +129,7 @@
 	border-radius: 1.23vh;
 	width: 18.74vh;
 	height: 9.74vh;
+
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -135,7 +143,9 @@
 	font-weight: bold;
 	font-size: 2.47vh;
 	line-height: 4.19vh;
+
 	color: #FFFFFF;
+
 	position: relative;
 	top: 0.3vh;
     right: 0.8vh;
@@ -145,6 +155,7 @@
 <script>
 import Nav from '@/components/Nav.vue'
 import Footer from '@/components/Footer.vue'
+
 export default {
     name: 'Feeling',
     components:{

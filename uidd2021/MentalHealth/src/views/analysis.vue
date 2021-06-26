@@ -491,12 +491,12 @@ blockquote{
 	font-weight: bold;
 	font-size: 2.5vh;
 	color: #4F4F4F;
-	
+	margin: 0;
 	line-height: 3.05vh;
 }
 #p2{
   position: relative;
-  top:5px;
+  top: 20%;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 2.22vh;
@@ -516,16 +516,16 @@ blockquote{
 	padding: 2vh 0;
 }
 #accept_button{
-    display: flex;
+  display: flex;
 	flex-direction: row;
 	align-items: center;
-    justify-content: center;
+  justify-content: center;
 	
 	background: #20E2D7;
 	box-shadow: 0 0.55vh 2.36vh -0.14vh rgba(107, 182, 177, 0.51);
 	border-radius: 4.5vh;
 	
-	width: 34.3vh;
+	width: 44.3vh;
 	height: 6vh;
     
 	cursor: pointer;

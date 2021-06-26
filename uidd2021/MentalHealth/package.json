@@ -30,7 +30,7 @@
     "view-design": "^4.5.0",
     "vue": "^2.6.12",
     "vue-element-multiple-message": "^1.0.1",
-    "vue-resource": "^1.5.2",
+    "vue-resource": "^1.5.3",
     "vue-router": "^3.0.1",
     "vuex": "^3.6.2",
     "vuex-persistedstate": "^4.0.0-beta.3"
